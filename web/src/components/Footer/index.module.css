@@ -1,0 +1,13 @@
+.root {
+  background: #fff;
+  color: var(--darkest);
+  padding: 2rem;
+  position: relative;
+  border-top: 1px solid var(--divider);
+  & a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5ch;
+    color: var(--secondary);
+  }
+}

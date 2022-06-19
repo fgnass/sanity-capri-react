@@ -1,0 +1,30 @@
+{
+  "repository": {
+    "name": "sanity-template-capri",
+    "owner": "capri-js",
+    "private": false
+  },
+  "sanity": {
+    "dataset": "production",
+    "projectId": "46nuxe13",
+    "projectTitle": "Capri"
+  },
+  "deployments": {
+    "studio": {
+      "url": "http://localhost:3333",
+      "providerName": "netlify",
+      "providerInfo": {
+        "buildHookId": "N/A",
+        "siteId": "N/A"
+      }
+    },
+    "web": {
+      "url": "http://localhost:3000",
+      "providerName": "netlify",
+      "providerInfo": {
+        "buildHookId": "N/A",
+        "siteId": "N/A"
+      }
+    }
+  }
+}
